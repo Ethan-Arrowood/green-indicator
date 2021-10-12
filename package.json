@@ -1,0 +1,26 @@
+{
+  "name": "green-indicator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build:wp": "webpack",
+    "build:ts": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@fluentui/svg-icons": "^1.1.143",
+    "@microsoft/fast-element": "^1.6.0"
+  },
+  "devDependencies": {
+    "@snowpack/plugin-typescript": "^1.2.1",
+    "rollup": "^2.58.0",
+    "snowpack": "^3.8.8",
+    "svg-sprite-loader": "^6.0.9",
+    "ts-loader": "^9.2.6",
+    "typescript": "^4.4.4",
+    "webpack-cli": "^4.9.0"
+  }
+}
